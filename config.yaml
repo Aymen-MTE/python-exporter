@@ -1,0 +1,14 @@
+timeout: 15 # optionel
+daemon: false # optionel
+sleep: 5 # optionel
+scripts:
+  url-cert-collector:
+    timeout: 10 # optionel
+    sleep: 15 # optionel
+    path: /app/scripts/url-cert-collector.sh
+    command: bash
+  curl-collector:
+    timeout: 10 # optionel
+    sleep: 15 # optionel
+    path: /app/scripts/curl-collector.sh
+    command: bash
